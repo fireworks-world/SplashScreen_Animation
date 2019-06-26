@@ -38,7 +38,7 @@ ProgressBar pb;
     public void running(){
         for (int progress=0; progress<100; progress+=10) {
             try {
-                Thread.sleep(3000);
+                Thread.sleep(1000);
                 pb.setProgress(progress);
             } catch (Exception e) {
                 e.printStackTrace();

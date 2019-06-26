@@ -47,14 +47,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TimePicker
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-            </TimePicker>
             <SeekBar
+                android:id="@+id/seekbar"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
+
             <RatingBar
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
